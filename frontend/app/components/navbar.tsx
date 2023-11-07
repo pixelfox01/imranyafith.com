@@ -13,7 +13,7 @@ const Navbar = () => {
         {NAV_LINKS.map((link) => (
           <li key={link.key}>
             <Link
-              className="hover:underline underline-offset-4"
+              className="hover:underline underline-offset-4 tracking-widest"
               href={link.path}
             >
               {link.label}

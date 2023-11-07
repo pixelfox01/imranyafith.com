@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div>
       <About />
-      <Work />
+      {/* <Work />
       <Projects />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }

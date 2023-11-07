@@ -9,11 +9,6 @@ export const NAV_LINKS: {
     key: "about",
   },
   {
-    label: "Skills",
-    path: "#skills",
-    key: "skills",
-  },
-  {
     label: "Work",
     path: "#work",
     key: "work",

@@ -32,7 +32,7 @@ const About = () => {
       <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col justify-center pl-12 lg:pl-20 gap-6">
         <Details />
       </div>
-      <div className="h-1/2 lg:h-full lg:w-1/2">
+      <div className="h-full border-t-2 lg:border-t-0 lg:border-l-2 lg:w-1/2">
         <Skills />
       </div>
     </div>

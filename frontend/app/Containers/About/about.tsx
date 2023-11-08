@@ -9,7 +9,7 @@ const roboto_mono = Roboto_Mono({
 const About = () => {
   return (
     <div className="h-screen flex flex-col lg:flex-row lg:justify-between tracking-widest">
-      <div className="flex flex-col lg:justify-center my-10 lg:mt-0 gap-6  lg:pl-24 pl-6">
+      <div className="flex flex-col h-1/2 lg:h-full justify-center lg:my-10 lg:mt-0 gap-6 lg:pl-24 lg:pr-12 pl-6">
         <h1 className="lg:text-4xl text-2xl font-semibold uppercase">
           Imran Yafith
         </h1>
@@ -24,7 +24,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="h-full border-t-2 lg:border-t-0 lg:border-l-2 lg:w-1/2">
+      <div className="border-t-2 lg:border-t-0 lg:border-l-2 lg:w-1/2 h-1/2 lg:h-full">
         <Skills />
       </div>
     </div>

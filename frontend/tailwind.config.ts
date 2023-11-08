@@ -17,6 +17,11 @@ const config: Config = {
         nav: "var(--nav-height)",
         expand: "calc(100vh - var(--nav-height))",
       },
+      letterSpacing: {
+        wide: ".025em",
+        wider: ".05em",
+        widest: ".25em",
+      },
     },
   },
   plugins: [],

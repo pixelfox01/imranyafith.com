@@ -8,7 +8,7 @@ const roboto_mono = Roboto_Mono({
 
 const Details = () => {
   return (
-    <>
+    <section>
       <div>
         <h1 className="lg:text-4xl text-2xl font-semibold uppercase tracking-widest">
           Imran Yafith
@@ -24,7 +24,7 @@ const Details = () => {
           <h2>Computer Science | Sheridan College</h2>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

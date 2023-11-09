@@ -8,7 +8,7 @@ const Experience = () => {
       className="py-12 bg-base-300 flex flex-col lg:gap-y-6 justify-center items-center"
     >
       <div className="w-full px-12 lg:px-48 mb-6">
-        <h1 className="uppercase tracking-wider text-xl lg:text-4xl font-semibold underline underline-offset-8 decoration-2 decoration-primary-focus">
+        <h1 className="uppercase tracking-wider text-xl lg:text-4xl font-semibold underline underline-offset-8 decoration-4 decoration-primary-focus">
           Experience
         </h1>
       </div>

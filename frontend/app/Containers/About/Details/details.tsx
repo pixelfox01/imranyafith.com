@@ -8,7 +8,7 @@ const roboto_mono = Roboto_Mono({
 
 const Details = () => {
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex flex-col gap-4 border-l-4 pl-4 border-primary-focus">
       <div>
         <h1 className="lg:text-4xl text-2xl font-semibold uppercase tracking-widest">
           Imran Yafith

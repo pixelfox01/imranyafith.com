@@ -30,8 +30,11 @@ const Job = (props: JobProps) => {
       </div>
       <div className="p-5 border-2 rounded-lg border-neutral-focus bg-neutral-focus mt-5">
         <ul className="list-disc ml-5 flex flex-col gap-y-2 marker:text-primary-focus">
-          {props.description.map((desc) => (
-            <li className="text-sm lg:text-lg" key={desc}>
+          {props.description.map((desc, index) => (
+            <li
+              className="text-sm lg:text-lg"
+              key={`${props.company}-desc-${index}`}
+            >
               {desc}
             </li>
           ))}

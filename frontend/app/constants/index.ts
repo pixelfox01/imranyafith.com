@@ -51,8 +51,8 @@ export const EXPERIENCE: {
     title: "Research Assistant",
     company: "Karmy Pain Clinic",
     duration: {
-      start: "Oct 2023",
-      end: "Present",
+      start: "Dec 2022",
+      end: "Aug 2023",
     },
     description: [
       "Developed an automated pain diagnostic system using AI in Python and MATLAB to improve patient care.",
@@ -64,8 +64,8 @@ export const EXPERIENCE: {
     title: "Program Tutor",
     company: "Sheridan College",
     duration: {
-      start: "Oct 2023",
-      end: "Present",
+      start: "Sep 2022",
+      end: "Sep 2023",
     },
     description: [
       "Guided and trained first-year students to excel in Programming Principles, an introductory Python course.",

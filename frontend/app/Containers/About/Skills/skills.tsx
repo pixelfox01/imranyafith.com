@@ -13,11 +13,11 @@ import {
 const Skills = () => {
   return (
     <section className="flex justify-center items-center w-full lg:mt-0 h-full">
-      <ul className="inline-grid grid-cols-3 gap-x-3 w-2/3 h-2/3">
-        <li className="flex justify-center items-center">
+      <ul className="text-[#b0b7f1] grid grid-cols-3 gap-6 w-2/3 shadow-lg lg:shadow-2xl lg:shadow-primary shadow-primary rounded-3xl p-8 lg:pt-12">
+        <li className=" flex justify-center items-center">
           <IconBrandPython size={64} />
         </li>
-        <li className="flex justify-center items-center">
+        <li className=" flex justify-center items-center">
           <IconBrandCSharp size={64} />
         </li>
         <li className="flex justify-center items-center">

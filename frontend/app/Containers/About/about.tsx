@@ -7,7 +7,7 @@ const About = () => {
       <div className="bg-base-300 h-1/2 lg:h-full lg:w-1/2 flex flex-col justify-center p-12 lg:pl-20 gap-6">
         <Details />
       </div>
-      <div className="bg-base-200 h-1/2 lg:h-full lg:w-1/2 py-12">
+      <div className="bg-base-300 h-1/2 lg:h-full lg:w-1/2 py-12">
         <Skills />
       </div>
     </div>

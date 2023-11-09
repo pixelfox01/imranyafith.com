@@ -1,9 +1,10 @@
 import React from "react";
 import { IconBriefcase, IconSchool } from "@tabler/icons-react";
-import { Roboto_Mono } from "next/font/google";
+import { Fira_Mono } from "next/font/google";
 
-const roboto_mono = Roboto_Mono({
+const fira_mono = Fira_Mono({
   subsets: ["latin"],
+  weight: ["400", "500", "700"],
 });
 
 const Details = () => {
@@ -14,7 +15,7 @@ const Details = () => {
           Imran Yafith
         </h1>
       </div>
-      <div className={`${roboto_mono.className}`}>
+      <div className={`${fira_mono.className}`}>
         <div className="lg:text-xl text-lg flex gap-3 items-center">
           <IconBriefcase />
           <h2>Research Assitant | Naryant (Inovex)</h2>

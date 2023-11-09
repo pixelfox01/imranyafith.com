@@ -1,4 +1,5 @@
 import { IconCalendar, IconBuilding } from "@tabler/icons-react";
+import { Fira_Mono } from "next/font/google";
 
 interface JobProps {
   title: string;
@@ -10,15 +11,20 @@ interface JobProps {
   };
 }
 
+const fira_mono = Fira_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+});
+
 const Job = (props: JobProps) => {
   return (
-    <div className="card h-full shadow-lg p-8 bg-neutral flex flex-col gap-y-3 tracking-wider">
+    <div className="rounded-xl h-full shadow-lg p-8 bg-neutral flex flex-col gap-y-3 tracking-wider">
       <div className="border-l-[3px] border-primary-focus pl-4">
         <h1 className="uppercase font-bold tracking-widest lg:text-xl">
           {props.title}
         </h1>
       </div>
-      <div className="text-sm lg:text-lg">
+      <div className={`text-sm lg:text-lg ${fira_mono.className}`}>
         <p className="flex items-center mb-1">
           <IconCalendar className="inline-block mr-2" size={16} />
           {props.duration.start} - {props.duration.end}

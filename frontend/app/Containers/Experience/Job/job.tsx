@@ -34,7 +34,7 @@ const Job = (props: JobProps) => {
           {props.company}
         </p>
       </div>
-      <div className="p-5 border-2 rounded-lg border-neutral-focus bg-neutral-focus mt-5">
+      <div className="p-5 border-2 rounded-lg border-neutral-focus bg-neutral-focus mt-5 shadow-md shadow-primary">
         <ul className="list-disc ml-5 flex flex-col gap-y-2 marker:text-primary-focus">
           {props.description.map((desc, index) => (
             <li

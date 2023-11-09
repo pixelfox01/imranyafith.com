@@ -8,7 +8,7 @@ const roboto_mono = Roboto_Mono({
 
 const About = () => {
   return (
-    <div className="h-expand lg:flex text-secondary-content">
+    <div className="h-screen lg:flex text-secondary-content">
       <div className="bg-base-300 h-1/2 lg:h-full lg:w-1/2 flex flex-col justify-center px-12 lg:pl-20 gap-6">
         <Details />
       </div>

@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html data-theme="dark" lang="en">
       <body className={montserrat.className}>
-        <Navbar />
+        {/* <Navbar /> */}
         <main>{children}</main>
       </body>
     </html>

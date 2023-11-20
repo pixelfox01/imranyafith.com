@@ -1,6 +1,10 @@
+"use client";
+
 import React from "react";
 import { IconBriefcase, IconSchool } from "@tabler/icons-react";
 import { Fira_Mono } from "next/font/google";
+import { motion } from "framer-motion";
+import { type } from "os";
 
 const fira_mono = Fira_Mono({
   subsets: ["latin"],

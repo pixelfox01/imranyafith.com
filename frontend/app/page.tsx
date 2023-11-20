@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <About />
       <Experience />
-      {/* <Projects /> */}
+      <Projects />
       {/* <Contact /> */}
     </div>
   );

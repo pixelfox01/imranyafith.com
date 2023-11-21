@@ -22,7 +22,7 @@ export default function RootLayout({
     <html data-theme="dark" lang="en">
       <body className={montserrat.className}>
         {/* <Navbar /> */}
-        <main>{children}</main>
+        <main className="bg-base-300">{children}</main>
       </body>
     </html>
   );

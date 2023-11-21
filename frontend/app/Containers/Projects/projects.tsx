@@ -16,7 +16,6 @@ const Projects = () => {
         {PROJECTS.map((project) => (
           <div className="first:col-span-2">
             <Project
-              key={project.key}
               title={project.title}
               date={project.date}
               description={project.description}

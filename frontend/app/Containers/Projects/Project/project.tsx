@@ -4,7 +4,6 @@ import Link from "next/link";
 import React from "react";
 
 interface ProjectProps {
-  key: string;
   title: string;
   date: string;
   description: string[];
@@ -31,7 +30,10 @@ const Project = (props: ProjectProps) => {
         </p>
         <p className="flex items-center">
           <IconBrandGithub className="inline-block mr-2" size={16} />
-          <Link href={props.link} className="hover:underline">
+          <Link
+            href={props.link}
+            className="hover:underline underline-offset-4"
+          >
             GitHub Link
           </Link>
         </p>
@@ -39,7 +41,7 @@ const Project = (props: ProjectProps) => {
       <div className="p-5 border-2 rounded-lg border-neutral-focus bg-neutral-focus mt-5 shadow-md shadow-primary">
         <ul className="list-disc ml-5 flex flex-col gap-y-2 marker:text-primary-focus">
           {props.description.map((desc, index) => (
-            <li className="text-sm lg:text-lg" key={props.key}>
+            <li className="text-sm lg:text-lg" key={`${index}-${props.title}`}>
               {desc}
             </li>
           ))}

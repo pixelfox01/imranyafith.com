@@ -113,7 +113,7 @@ export const PROJECTS: {
     description: [
       "Personal portfolio website to showcase my projects and experience.",
       "Created using NextJS and TypeScript.",
-      "Uses TailwindCSS for styling and responsiveness.",
+      "Used TailwindCSS for styling and responsiveness.",
     ],
     link: "https://github.com/pixelfox01/imranyafith-portfolio",
   },

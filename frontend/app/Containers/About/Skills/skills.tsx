@@ -15,7 +15,7 @@ import {
 const Skills = () => {
   return (
     <section className="flex justify-center items-center w-full lg:mt-0 h-full">
-      <ul className="text-[#d8d4fe] grid grid-cols-3 gap-6 w-2/3 shadow-2xl lg:shadow-2xl lg:shadow-primary shadow-primary rounded-3xl p-8 lg:pt-12">
+      <ul className="text-[#d8d4fe] grid grid-cols-3 gap-6 w-2/3 shadow-2xl lg:shadow-2xl lg:shadow-primary shadow-primary rounded-3xl p-8">
         <li className=" flex justify-center items-center">
           <IconBrandPython size={64} />
         </li>

@@ -1,2 +1,11 @@
-# imranyafith-portfolio
-Personal portfolio website that showcases my skills, projects and experience. Built using NextJs and TailwindCSS.
+# Imran Yafith Portfolio
+Personal portfolio website that showcases my skills, projects and experience.
+
+### Technologies Used
+* NextJS
+* HTML5
+* TypeScript
+* TailwindCSS
+* Git
+* GitHub
+* React

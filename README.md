@@ -1,7 +1,7 @@
 # Imran Yafith Portfolio
 Personal portfolio website that showcases my skills, projects and experience.
 
-![Imgur](https://imgur.com/a/MUB18WM.png?1)
+![Imgur](https://i.imgur.com/JAHIAOm.png)
 
 ### Technologies Used
 * NextJS

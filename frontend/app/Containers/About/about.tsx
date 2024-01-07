@@ -19,7 +19,7 @@ const About = () => {
           </Link>
           <a
             className="btn btn-primary md:w-[45%] md:mr-12"
-            href="/imran-yafith-resume.pdf"
+            href="/imran_yafith_resume.pdf"
             target="_blank"
           >
             <IconFileDescription />

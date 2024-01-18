@@ -82,6 +82,18 @@ export const PROJECTS: {
   link: string;
 }[] = [
   {
+    key: "mern-bookstore",
+    title: "MERN Bookstore",
+    date: "Dec 2023",
+    description: [
+      "Full-Stack Bookstore app created using the M(ongoDB)E(xpress)R(eact)N(ode) tech stack.",
+      "Created frontend using Vite and TypeScript. TailwindCSS was used for styling.",
+      "Users can create, read, and delete books.",
+      "Uses MongoDB database to store the books data.",
+    ],
+    link: "https://github.com/pixelfox01/mern-bookstore-demo",
+  },
+  {
     key: "homebase-automation",
     title: "Homebase Automation",
     date: "Aug 2023",
@@ -92,19 +104,6 @@ export const PROJECTS: {
       "Adds shifts as events to my Google Calendar by utilizing the Google Developer API.",
     ],
     link: "https://github.com/pixelfox01/HomebaseAutomation",
-  },
-  {
-    key: "react-todo-app",
-    title: "React To-Do App",
-    date: "Oct 2023",
-    description: [
-      "Full-Stack social media app that allows users to make text posts and upload them.",
-      "Created frontend using React and TypeScript.",
-      "Users can create accounts and login to the app using Firebase Authentication.",
-      "Users can create, read, and delete posts.",
-      "Uses Firestore to store user data and posts.",
-    ],
-    link: "https://github.com/pixelfox01/React-TodoList-App",
   },
   {
     key: "personal-portfolio",

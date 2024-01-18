@@ -6,9 +6,9 @@ import {
   IconBrandCSharp,
   IconBrandCpp,
   IconBrandTypescript,
-  IconSql,
   IconBrandReact,
-  IconBrandGit,
+  IconBrandMongodb,
+  IconBrandNodejs,
   IconBrandAws,
 } from "@tabler/icons-react";
 
@@ -38,10 +38,10 @@ const Skills = () => {
           <IconBrandAws size={64} />
         </li>
         <li className="flex justify-center items-center">
-          <IconSql size={64} />
+          <IconBrandNodejs size={64} />
         </li>
         <li className="flex justify-center items-center">
-          <IconBrandGit size={64} />
+          <IconBrandMongodb size={64} />
         </li>
       </ul>
     </section>

@@ -86,7 +86,7 @@ export const PROJECTS: {
     title: "MERN Bookstore",
     date: "Dec 2023",
     description: [
-      "Full-Stack Bookstore app created using the M(ongoDB)E(xpress)R(eact)N(ode) tech stack.",
+      "Full-Stack Bookstore app created using the M(ongoDB) E(xpress) R(eact) N(ode) tech stack.",
       "Created frontend using Vite and TypeScript. TailwindCSS was used for styling.",
       "Users can create, read, and delete books.",
       "Uses MongoDB database to store the books data.",

@@ -44,6 +44,9 @@ export const EXPERIENCE: {
     },
     description: [
       "Improved Urban Planning using Machine Learning, Traffic Simulation and Data Visualization.",
+      "Utilized Simulation of Urban Mobility (SUMO) and OpenStreetMap (OSM) to model and analyze traffic patterns across 10+ urban zones, enhancing data accuracy for urban development projects.",
+      "Synthesized a comprehensive dataset predicting traffic demand for the city of Oakville, utilizing simulation tools (SUMO, OSM).",
+      "Collaborated with a team of 4 researchers to assimilate simulation data, bolstering collective strategic planning and decision-making.",
     ],
     key: "naryant-1",
   },
@@ -55,8 +58,9 @@ export const EXPERIENCE: {
       end: "Aug 2023",
     },
     description: [
-      "Developed an automated pain diagnostic system using AI in Python and MATLAB to improve patient care.",
-      "Improved efficiency of data collection by using Data Visualization in Matplotlib.",
+      "Engineered an AI-driven pain diagnostic system leveraging Python and MATLAB, improving patient diagnosis accuracy and treatment efficacy, reducing diagnosis time.",
+      "Increased data processing accuracy by 30% with improved data analysis techniques.",
+      "Contributed to a 5 person team's iterative development and optimization of an AI model, achieving significant accuracy gains based on patient feedback and trials.",
     ],
     key: "karmy-1",
   },

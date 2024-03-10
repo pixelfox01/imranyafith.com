@@ -73,6 +73,8 @@ export const EXPERIENCE: {
     },
     description: [
       "Guided and trained first-year students to excel in Programming Principles, an introductory Python course.",
+      "Facilitated weekly sessions, providing students with personalized support and guidance to improve their programming skills.",
+      "Collaborated with faculty to develop and implement a comprehensive learning plan, resulting in a significant increase in student performance.",
     ],
     key: "sheridan-1",
   },

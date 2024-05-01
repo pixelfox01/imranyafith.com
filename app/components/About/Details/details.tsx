@@ -11,8 +11,8 @@ const fira_mono = Fira_Mono({
 
 const Details = () => {
   return (
-    <section className="flex flex-col gap-4 lg:border-l-4 pl-4 border-primary-focus">
-      <div className="border-l-2 border-primary-focus pl-4 lg:border-none lg:p-0">
+    <section className="flex flex-col gap-4 lg:border-l-4 pl-4 border-primary">
+      <div className="border-l-2 border-primary pl-4 lg:border-none lg:p-0">
         <h1 className="lg:text-4xl text-2xl font-semibold uppercase tracking-widest">
           Imran Yafith
         </h1>

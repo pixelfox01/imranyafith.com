@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Imran Yafith | Computer Science",
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 const montserrat = Montserrat({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
+  variable: "--montserrat",
 });
 
 export default function RootLayout({
@@ -19,8 +21,13 @@ export default function RootLayout({
 }) {
   return (
     <html data-theme="dark" lang="en">
-      <body className={montserrat.className}>
-        <main className="bg-base-300">{children}</main>
+      <body
+        className={cn(
+          "min-h-screen font-sans antialiased",
+          montserrat.variable
+        )}
+      >
+        <main>{children}</main>
       </body>
     </html>
   );

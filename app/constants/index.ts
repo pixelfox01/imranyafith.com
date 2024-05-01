@@ -40,7 +40,7 @@ export const EXPERIENCE: {
     company: "Naryant (Formerly Inovex)",
     duration: {
       start: "Oct 2023",
-      end: "Present",
+      end: "Apr 2024",
     },
     description: [
       "Improved Urban Planning using Machine Learning, Traffic Simulation and Data Visualization.",

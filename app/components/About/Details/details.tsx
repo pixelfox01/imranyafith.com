@@ -20,7 +20,7 @@ const Details = () => {
       <div className={`${fira_mono.className}`}>
         <div className="lg:text-xl text-lg flex gap-3 items-center">
           <IconBriefcase />
-          <h2>Research Assistant | Naryant (Inovex)</h2>
+          <h2>ML Developer | Oakville Centre for Vision</h2>
         </div>
         <div className="lg:text-xl text-lg flex gap-3 items-center">
           <IconSchool />

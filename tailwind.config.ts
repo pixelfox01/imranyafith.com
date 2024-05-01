@@ -13,20 +13,8 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      height: {
-        nav: "var(--nav-height)",
-        expand: "calc(100vh - var(--nav-height))",
-      },
-      letterSpacing: {
-        wide: ".025em",
-        wider: ".05em",
-        widest: ".25em",
-      },
     },
   },
-  plugins: [require("daisyui")],
-  daisyui: {
-    themes: ["light", "dark"],
-  },
+  plugins: [],
 };
 export default config;

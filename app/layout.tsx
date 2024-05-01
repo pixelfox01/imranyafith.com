@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/app/components/navbar";
 import { Montserrat } from "next/font/google";
 
 export const metadata: Metadata = {
@@ -21,7 +20,6 @@ export default function RootLayout({
   return (
     <html data-theme="dark" lang="en">
       <body className={montserrat.className}>
-        {/* <Navbar /> */}
         <main className="bg-base-300">{children}</main>
       </body>
     </html>

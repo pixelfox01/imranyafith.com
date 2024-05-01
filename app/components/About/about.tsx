@@ -1,11 +1,12 @@
-import Link from "next/link";
-import Details from "./Details/details";
-import Skills from "./Skills/skills";
 import { IconBrandGithub, IconFileDescription } from "@tabler/icons-react";
+import Link from "next/link";
+import React from "react";
+import Skills from "@/app/components/About/Skills/skills";
+import Details from "./Details/details";
 
 const About = () => {
   return (
-    <div className="lg:flex lg:items-center lg:py-16 text-secondary-content">
+    <div className="lg:flex lg:items-center lg:py-16">
       <div className="bg-base-300 lg:h-full lg:w-1/2 flex flex-col justify-center p-12 pb-4 lg:pl-20 gap-6">
         <Details />
         <div className="flex md:flex-row flex-col md:justify-between gap-3 md:gap-1 mb-24 md:mb-0">

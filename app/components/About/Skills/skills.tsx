@@ -1,15 +1,15 @@
 "use client";
 
 import {
-  IconBrandNextjs,
   IconBrandPython,
   IconBrandCSharp,
   IconBrandCpp,
   IconBrandTypescript,
   IconBrandReact,
-  IconBrandMongodb,
-  IconBrandNodejs,
   IconBrandAws,
+  IconSql,
+  IconBrandGolang,
+  IconBrandGit,
 } from "@tabler/icons-react";
 
 const Skills = () => {
@@ -23,13 +23,16 @@ const Skills = () => {
           <IconBrandCSharp size={64} />
         </li>
         <li className="flex justify-center items-center">
+          <IconBrandGolang size={64} />
+        </li>
+        <li className="flex justify-center items-center">
           <IconBrandCpp size={64} />
         </li>
         <li className="flex justify-center items-center">
           <IconBrandReact size={64} />
         </li>
         <li className="flex justify-center items-center">
-          <IconBrandNextjs size={64} />
+          <IconBrandGit size={64} />
         </li>
         <li className="flex justify-center items-center">
           <IconBrandTypescript size={64} />
@@ -38,10 +41,7 @@ const Skills = () => {
           <IconBrandAws size={64} />
         </li>
         <li className="flex justify-center items-center">
-          <IconBrandNodejs size={64} />
-        </li>
-        <li className="flex justify-center items-center">
-          <IconBrandMongodb size={64} />
+          <IconSql size={64} />
         </li>
       </ul>
     </section>

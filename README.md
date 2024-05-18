@@ -2,7 +2,7 @@
 
 Personal portfolio website that showcases my skills, projects and experience.
 
-![Imgur](https://i.imgur.com/a/PKFOiCA.png)
+![Imgur](https://i.imgur.com/Fn9gQ2L.png)
 
 ### Technologies Used
 

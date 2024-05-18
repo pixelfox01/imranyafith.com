@@ -24,7 +24,7 @@ const About = () => {
           <Button asChild className="rounded">
             <Link
               className="md:w-[45%] md:mr-12"
-              href="https://pixelfox01.github.io/resume/resume.pdf"
+              href="resume.pdf"
               target="_blank"
             >
               <IconFileDescription />

@@ -36,6 +36,20 @@ export const EXPERIENCE: {
   key: string;
 }[] = [
   {
+    title: "Machine Learning Developer",
+    company: "Oakville Centre for Vision",
+    duration: {
+      start: "May 2024",
+      end: "Present",
+    },
+    description: [
+      "Collaborate on the 'Difference Goggles' project, focusing on developing low-cost eye tracking wearables for sports and rehabilitation applications.",
+      "Engineered machine learning algorithms and conducted image/video processing using Python to improve eye tracking accuracy.",
+      "Actively participated in Agile project management practices, enhancing team collaboration and project deliverables while adhering to the Software Development Life Cycle (SDLC).",
+    ],
+    key: "naryant-1",
+  },
+  {
     title: "Research Assistant",
     company: "Naryant (Formerly Inovex)",
     duration: {
@@ -63,20 +77,6 @@ export const EXPERIENCE: {
       "Contributed to a 5 person team's iterative development and optimization of an AI model, achieving significant accuracy gains based on patient feedback and trials.",
     ],
     key: "karmy-1",
-  },
-  {
-    title: "Program Tutor",
-    company: "Sheridan College",
-    duration: {
-      start: "Sep 2022",
-      end: "Sep 2023",
-    },
-    description: [
-      "Guided and trained first-year students to excel in Programming Principles, an introductory Python course.",
-      "Facilitated weekly sessions, providing students with personalized support and guidance to improve their programming skills.",
-      "Collaborated with faculty to develop and implement a comprehensive learning plan, resulting in a significant increase in student performance.",
-    ],
-    key: "sheridan-1",
   },
 ];
 

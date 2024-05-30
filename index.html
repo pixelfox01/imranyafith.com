@@ -6,11 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Imran Yafith</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+
     <script src="./src/main.ts" type="module"></script>
 
     <link rel="stylesheet" href="./src/index.css" />
   </head>
-  <body class="bg-[#0D0221]">
-    <div id="app" class="text-[#CDCDCD]">Imran Yafith</div>
+  <body class="bg-primary">
+    <div id="app" class="font-primary text-primary">
+      <nav class="sticky top-0 bg-primary">
+        <button class="hamb nav-toggle" aria-label="Open Menu">
+          <span class="sr-only">Open Menu</span>
+          <svg class="ham" viewBox="0 0 100 100">
+            <path
+              class="line top"
+              d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+            ></path>
+            <path class="line middle" d="m 30,50 h 40"></path>
+            <path
+              class="line bottom"
+              d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+            ></path>
+          </svg>
+        </button>
+        <div
+          class="nav-items fixed left-0 top-0 z-10 hidden h-full w-full items-center justify-center bg-primary"
+        >
+          <ul class="flex flex-col gap-9 text-center text-3xl">
+            <li class="fade-in opacity-0"><a href="#">About</a></li>
+            <li class="fade-in opacity-0"><a href="#">Experience</a></li>
+            <li class="fade-in opacity-0"><a href="#">Projects</a></li>
+            <li class="fade-in opacity-0"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="">Imran Yafith</div>
+    </div>
   </body>
 </html>

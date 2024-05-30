@@ -2,7 +2,17 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        primary: "#0D0221",
+      },
+      textColor: {
+        primary: "#CDCDCD",
+      },
+      fontFamily: {
+        primary: ["JetBrains Mono", "Arial", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

@@ -1,3 +1,5 @@
+import "./index.css";
+
 const app = document.querySelector("#app");
 
 if (app) {

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .fade-in {
-  transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.75s ease-in-out;
   /* Adjust transition duration and timing function as needed */
 }
 

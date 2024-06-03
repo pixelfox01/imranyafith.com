@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       backgroundColor: {
-        primary: "#0D0221",
+        primary: "#121212",
       },
       textColor: {
-        primary: "#CDCDCD",
+        primary: "#EFEFEF",
       },
       fontFamily: {
         primary: ["JetBrains Mono", "Arial", "sans-serif"],
